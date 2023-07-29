@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form using Html & Css</title>
+</head>
+
+<body>
+  <!-- Hero-section -->
+  <h1 class="heading">Free Tour Survey Form</h1>
+  <p class="sub-head">New York central Park free tour</p>
+  <div class="divider"></div>
+  <!-- Hero-section ends -->
+
+  <section>
+    <!-- Form starts -->
+    <form action="">
+
+      <div class="form-control">
+        <label for="name">Full Name</label>
+        <!-- input-text -->
+        <input type="text" name="first name" id="name" placeholder="Enter your name">
+      </div>
+      <br>
+      <div class="form-control">
+        <label>Phone Number</label>
+
+        <!-- input-tel -->
+        <input type="tel" id="Phone-number" placeholder="Enter your phone number">
+      </div>
+      <br>
+      <div class="form-control">
+        <label for="email">Email <small>(optional)</small></label>
+
+        <!-- input-email -->
+        <input type="email" id="email" placeholder="Enter your email">
+      </div>
+      <br>
+      <div class="form-control">
+        <label for="role">You are</label>
+
+        <!-- dropdown-options -->
+        <select name="Travel-type" id="role">
+          <option value="With Family">With Family</option>
+          <option value="Solo Traveller">Solo Traveller</option>
+          <option value="Pack of Travellers">Pack of Travellers</option>
+          <option value="Budget Bag Packer">Budget Backpacker</option>
+        </select>
+      </div>
+
+
+      <br>
+      <br>
+      <div class="form-control">
+        <label>Which option describe you best</label>
+        <br>
+        <!-- input-radio -->
+        <label for="Occupation"><input type="radio" id="" name="Occupation" value="Studen" checked>Student</label><br>
+        <label for="Occupation"><input type="radio" id="" name="Occupation"
+            value="Professional">Professional</label><br>
+        <label for="Occupation"><input type="radio" id="" name="Occupation" value="Freelancer">Freelancer</label><br>
+        <label for="Occupation"><input type="radio" id="" name="Occupation" value="other">other</label><br>
+      </div>
+
+      <br>
+      <br>
+      <div class="form-control">
+        <label for="Tourist-spots">Which of the following you like to include in your free tour?<br><small>(Pick any
+            3)</small></label>
+        <br>
+
+        <!-- input-checkbox -->
+        <label for="spot-1">
+          <input type="checkbox" name="spot">Alice in Wonderland</input>
+        </label><br>
+        <label for="spot-2">
+          <input type="checkbox" name="spot">Metropolitan Museum of Art</input>
+        </label><br>
+        <label for="spot-3">
+          <input type="checkbox" name="spot">Bethesda Terrace Arcade</input>
+        </label><br>
+        <label for="spot-4">
+          <input type="checkbox" name="spot">Hallett Sanctuary</input>
+        </label> <br>
+        <label for="spot-5">
+          <input type="checkbox" name="spot">Delacorte Theater</input>
+        </label><br>
+        <br>
+        <br>
+        <div class="form-control">
+          <label for="suggestions">Any comments or Suggestions</label>
+
+          <br>
+          <!-- input-textarea -->
+          <textarea name="suggestions" id="" cols="50" rows="10" placeholder="type here"></textarea>
+        </div>
+
+        <br>
+        <button type="submit" value="submit"><strong>Submit</strong></button>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 isharmahemant. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/codingcoder/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/hemant-sharmaux-9b20b71a0/" target="_blank"><i
+          class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+</body>
+
+</html>
